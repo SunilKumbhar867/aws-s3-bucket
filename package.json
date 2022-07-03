@@ -1,0 +1,20 @@
+{
+  "name": "uploadimagetos3bucket",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "uploading image to s3 buket using node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sunil",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1042.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "multer": "^1.4.3",
+    "uuid": "^8.3.2"
+  }
+}
